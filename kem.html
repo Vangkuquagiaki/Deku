@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .khung .menu li {
+            float: left;
+            padding: 30px;
+            list-style: none;
+            text-transform: none;
+
+        }
+
+        .logo {
+            float: left;
+            font-size: 200px;
+            height: auto;
+            padding-right: 100px;
+        }
+
+        .khung {
+            width: 1280px;
+            margin: 0 auto;
+        }
+
+        .khung .menu li a {
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+
+            color: #778899;
+        }
+
+        .khung .menu li:hover {
+            border-bottom: solid 0.3em;
+            border-bottom-color: red;
+        }
+
+        .khung .menu li:hover a {
+            color: red;
+        }
+
+        .banner {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: auto;
+            padding-top: 100px;
+        }
+
+        .gioithieu {
+            display: flex;
+            margin: 10px auto;
+            text-align: center;
+            padding-top: 20px;
+
+        }
+
+        .gioithieu .gioi {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .sanpham {
+            display: flex;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .sanpham .kem {
+            flex: 1;
+
+        }
+
+        .tieude1 {
+            text-align: center;
+            color: deeppink;
+        }
+
+        .footer {
+            background-color: aliceblue;
+            padding: 10px 20px;
+            margin-top: 150px;
+        }
+
+        .footer .menuft {
+            padding-right: 30px;
+            display: flex;
+        }
+
+        .footer .menuft .menu1 {
+            flex: 1;
+        }
+
+        .footer .menuft .menu1 li {
+            list-style: none;
+            text-transform: none;
+            float: left;
+            padding-left: 30px;
+        }
+
+        .footer .menuft .menu1 li a {
+            text-decoration: none;
+
+            color: black;
+        }
+
+        .footer .menuft .menu1 li a:hover {
+            color: deeppink;
+        }
+
+        .diachi {
+            display: flex;
+        }
+
+        .diachi.diachi1 {
+            flex: 1;
+        }
+
+        .diachi .abv {
+            position: absolute;
+            right: 0px;
+        }
+
+        .abv h3 {
+
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="khung">
+        <img class="logo" src="images_Kem/logo.gif" />
+        <ul class="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Dự án</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+        <div>
+            <img src="images_Kem/slider1.jpg" class="banner" />
+        </div>
+        <!-- gioithieru -->
+        <div class="gioithieu">
+            <div class="gioi">
+                <img src="images_Kem/icon1.gif" />
+                <h4>Đặt mua </h4>
+                <p>Làm kem xoài sữa chua giải nhiệt có vị ngọtcủa trái coài chín, Làm kem xoài sữa chua giải nhiệt có vị
+                    ngọtcủa trái coài chín</p>
+            </div>
+            <div class="gioi">
+                <img src="images_Kem/icon2.gif" />
+                <h4>Khuyến mãi</h4>
+                <p>Làm kem xoài sữa chua giải nhiệt có vị ngọtcủa trái coài chín, Làm kem xoài sữa chua giải nhiệt có vị
+                    ngọtcủa trái coài chín</p>
+            </div>
+            <div class="gioi">
+                <img src="images_Kem/icon3.gif" />
+                <h4>Kem có sẵn</h4>
+                <p>Làm kem xoài sữa chua giải nhiệt có vị ngọtcủa trái coài chín, Làm kem xoài sữa chua giải nhiệt có vị
+                    ngọtcủa trái coài chín</p>
+            </div>
+            <div class="gioi">
+                <img src="images_Kem/icon4.gif" />
+                <h4>Cảm nhận khách hàng</h4>
+                <p>Làm kem xoài sữa chua giải nhiệt có vị ngọtcủa trái coài chín, Làm kem xoài sữa chua giải nhiệt có vị
+                    ngọtcủa trái coài chín</p>
+            </div>
+        </div>
+        <div class="loaikem">
+            <h1 class="tieude1">CÁC LOẠI KEM TẠI BASKIN ROBBIN</h1>
+            </br>
+            <div class="sanpham">
+                <div class="kem">
+                    <img src="images_Kem/kem1.jpg" />
+                </div>
+                <div class="kem">
+                    <img src="images_Kem/KEM2.jpg" />
+                </div>
+                <div class="kem">
+                    <img src="images_Kem/KEM3.jpg" />
+                </div>
+            </div>
+            <div class="sanpham ">
+                <div class="kem">
+                    <img src="images_Kem/KEM4.jpg" />
+                </div>
+                <div class="kem">
+                    <img src="images_Kem/KEM5.jpg" />
+                </div>
+                <div class="kem">
+                    <img src="images_Kem/KEM6.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="menuft">
+                <ul class="menu1"></ul>
+                <ul class="menu1">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Dự án</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="diachi">
+                <div class="diachi1">
+                    <h3><b>BASKIN ROBBIN</b></h3>
+                    <h3>Số 2 Trường Sa,Quận Bình Thạnh, TP HCM </h3>
+                    <h3>Điện Thoại: 08 38 324587 </h3>
+                </div>
+                <div class="diachi1 abv">
+                    <h3><b>BASKIN ROBBIN</b></h3>
+                    <h3>Thiết kê bơi BP </h3>
+                    <h3>Điện Thoại: 08 38 324587 </h3>
+                </div>
+            </div>
+        </div>
+        <div>
+</body>
+
+</html>

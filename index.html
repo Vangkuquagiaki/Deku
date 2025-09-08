@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+  <style>
+    .khung .menu li {
+      float: left;
+      padding: 30px;
+      list-style: none;
+      text-transform: none;
+      border-bottom: solid 0.3em;
+      border-bottom-color: #550000;
+    }
+
+    .logo {
+      float: left;
+      width: 100px;
+      height: auto;
+      padding-right: 100px;
+    }
+
+    .khung {
+      width: 960px;
+      margin: 0 auto;
+    }
+
+    .khung .menu li a {
+      text-decoration: none;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 600;
+
+      color: #778899;
+    }
+
+    .khung .menu li:hover {
+      border-bottom: solid 0.3em;
+      border-bottom-color: red;
+    }
+
+    .khung .menu li:hover a {
+      color: red;
+    }
+
+    .banner {
+      display: block;
+      margin: auto;
+      width: 90%;
+      height: auto;
+      padding-top: 100px;
+    }
+
+    .content {
+      display: flex;
+    }
+
+    .qc {
+      flex: 1;
+    }
+
+    .noidung {
+      flex: 4;
+    }
+
+    .content .qc li {
+      padding: 10px;
+      list-style: none;
+      text-transform: none;
+      border-bottom: solid 0.1em;
+      border-bottom-color: #999999;
+    }
+
+    .content .qc li a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+      margin-left: 20px;
+      color: #333333;
+    }
+
+    .tieude {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .noidung .sanpham {
+      margin: 40px 20px 0px 20px;
+      padding-top: 14px;
+      padding-right: 14px;
+      float: left;
+      width: 180px;
+    }
+
+    .noidung .sanpham h3 {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .noidung .sanpham .do {
+      font-size: 14px;
+      font-weight: 700;
+      color: red;
+    }
+
+    .noidung .sanpham button {
+      background-color: red;
+      color: white;
+      border: none;
+      margin-left: 150px;
+      width: 70px;
+      height: 35px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      height: 120px;
+      background-color: #333333;
+      display: flex;
+    }
+
+    .footer .diachi {
+      flex: 1;
+    }
+
+    .footer .icon {
+      flex: 1;
+    }
+
+    .footer .diachi h3 {
+      color: white;
+      font-size: 15px;
+      padding-left: 15px;
+    }
+
+    .footer .icon i {
+      float: right;
+      color: white;
+      font-size: 60px;
+      padding-top: 30px;
+      padding-right: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="khung">
+    <img class="logo" src="imagesGF/logo.png" />
+    <ul class="menu">
+      <li><a href="#">Trang chủ</a></li>
+      <li><a href="#">Giới thiệu</a></li>
+      <li><a href="#">Sản phẩm</a></li>
+      <li><a href="#">Dự án</a></li>
+      <li><a href="#">Liên hệ</a></li>
+    </ul>
+
+    <div>
+      <img src="imagesGF/banner.png" class="banner" />
+    </div>
+
+    <div class="content">
+      <div class="qc">
+        <ul>
+          <li class="tieude" style="border-bottom: solid 0.3em; border-bottom-color: #444444">
+            Mẫu thiết kế mới
+          </li>
+          <li><a href="#">Văn phòng</a></li>
+          <li><a href="#">Phòng khách</a></li>
+          <li><a href="#">Phòng ngủ </a></li>
+          <li><a href="#">Phòng sách</a></li>
+          <li><a href="#">Nhà vườn</a></li>
+        </ul>
+        <ul>
+          <li class="tieude" style="border-bottom: solid 0.3em; border-bottom-color: #444444">
+            Nội thất cao cấp
+          </li>
+          <li><a href="#">Sofa nệm da</a></li>
+          <li><a href="#">Tủ bếp</a></li>
+          <li><a href="#">giường</a></li>
+          <li><a href="#">Bàn ăn</a></li>
+          <li><a href="#">Đèn trang trí</a></li>
+          <li><a href="#">Rèm cửa cao cấp</a></li>
+        </ul>
+      </div>
+      <div class="noidung">
+        <div class="sanpham">
+          <img src="imagesGF/1.jpg" />
+          <h3>GG09</h3>
+          <p>Căn hộ penhouse</p>
+        </div>
+        <div class="sanpham">
+          <img src="imagesGF/1.jpg" />
+          <h3>GG09</h3>
+          <p>Căn hộ penhouse</p>
+        </div>
+        <div class="sanpham">
+          <img src="imagesGF/2.jpg" />
+          <h3>GG09</h3>
+          <p>Căn hộ penhouse</p>
+        </div>
+
+
+
+        <div class="sanpham">
+          <img src="imagesGF/3.jpg" />
+          <h3 class="do">GG09</h3>
+          <p><span class="do">GF</span> hộ penhouse</p>
+          <button>Chi tiết</button>
+        </div>
+        <div class="sanpham">
+          <img src="imagesGF/3.jpg" />
+          <h3 class="do">GG09</h3>
+          <p><span class="do">GF</span> hộ penhouse</p>
+          <button>Chi tiết</button>
+        </div>
+        <div class="sanpham">
+          <img src="imagesGF/3.jpg" />
+          <h3 class="do">GG09</h3>
+          <p><span class="do">GF</span> hộ penhouse</p>
+          <button>Chi tiết</button>
+        </div>
+        <div class="sanpham">
+          <img src="imagesGF/3.jpg" />
+          <h3 class="do">GG09</h3>
+          <p><span class="do">GF</span> hộ penhouse</p>
+          <button>Chi tiết</button>
+        </div>
+        <div class="sanpham">
+          <img src="imagesGF/3.jpg" />
+          <h3 class="do">GG09</h3>
+          <p><span class="do">GF</span> hộ penhouse</p>.
+          <button>Chi tiết</button>
+        </div>
+        <div class="sanpham">
+          <img src="imagesGF/3.jpg" />
+          <h3 class="do">GG09</h3>
+          <p><span class="do">GF</span> hộ penhouse</p>
+          <button>Chi tiết</button>
+        </div>
+      </div>
+    </div>
+    <!--  êê-->
+    <div class="footer">
+      <div class="diachi ">
+        <h3>GF Funiture </h3>
+        <h3>Số 2 Trường Sa,Quận Bình Thạnh, TP HCM </h3>
+        <h3>Điện Thoại: 08 38 324587 </h3>
+      </div>
+      <div class="icon ">
+        <i class="fa-brands fa-google-plus-g"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
